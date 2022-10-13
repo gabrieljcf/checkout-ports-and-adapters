@@ -1,6 +1,5 @@
-
-import ItemRepositoryDatabase from "../adapters/postgre-sql/ItemRepositoryDatabase";
-import OrderService from "../services/OrderService";
+import ItemRepositoryDatabase from "../../adapters/postgre-sql/ItemRepositoryDatabase";
+import OrderService from "../../services/OrderService";
 
 let cpf: string = "";
 const orderItems: { idItem: number; quantity: number }[] = [];

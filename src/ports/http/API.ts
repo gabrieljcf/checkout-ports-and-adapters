@@ -1,6 +1,6 @@
 import express from "express";
-import ItemRepositoryDatabase from "../adapters/postgre-sql/ItemRepositoryDatabase";
-import OrderService from "../services/OrderService";
+import ItemRepositoryDatabase from "../../adapters/postgre-sql/ItemRepositoryDatabase";
+import OrderService from "../../services/OrderService";
 
 const app = express();
 app.use(express.json());
